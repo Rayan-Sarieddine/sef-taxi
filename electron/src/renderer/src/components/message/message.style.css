@@ -1,0 +1,26 @@
+.message-holder {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.message-holder>div {
+  padding: 15px 25px;
+  width: 40%;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.message-holder>div.left {
+  margin-right: auto;
+  background-color: grey;
+  border-bottom-left-radius: 10px;
+}
+
+.message-holder>div.right {
+  margin-left: auto;
+  border-bottom-right-radius: 10px;
+  background-color: #ffc000
+}

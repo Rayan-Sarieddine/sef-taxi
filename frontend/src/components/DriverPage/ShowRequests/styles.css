@@ -1,0 +1,88 @@
+.driver-requests {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 3rem;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.driver-requests table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.driver-requests table th,
+.driver-requests table td {
+  text-align: left;
+
+  font-weight: 700;
+  padding: 8px;
+}
+.driver-requests table th {
+  background-color: #232323;
+  color: rgba(255, 192, 0);
+  font-size: 1.5rem;
+}
+.driver-requests table td {
+  font-size: 1rem;
+}
+.driver-requests table tr {
+  border-bottom: 1px solid rgba(255, 192, 0);
+  transition: 0.5s;
+}
+
+.driver-requests tr:hover {
+  background-color: rgb(241, 237, 237);
+}
+.driver-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+.driver-info img {
+  width: 3rem;
+}
+.accept-request,
+.reject-request,
+.refresh-request,
+.finish-request {
+  padding: 0.5rem 2.5rem;
+  background-color: rgba(255, 192, 0);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-weight: 700;
+}
+.refresh-request {
+  color: rgba(255, 192, 0);
+  background-color: black;
+}
+.refresh-request:hover,
+.finish-request:hover {
+  background-color: rgba(255, 192, 0);
+  color: black;
+}
+.accept-request:hover {
+  background-color: black;
+  color: rgb(24, 193, 38);
+}
+.reject-request:hover {
+  background-color: black;
+  color: rgb(232, 19, 19);
+}
+.request-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+.request-info img {
+  width: 3rem;
+}
+.no-requests {
+  font-weight: 700;
+}

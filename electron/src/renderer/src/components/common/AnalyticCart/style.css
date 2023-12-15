@@ -1,0 +1,24 @@
+.card {
+  width: 200px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  height: 80%;
+  box-shadow: 2px 2px 5px grey;
+}
+.card-top {
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.card-top p {
+  font-size: small;
+  color: rgb(0, 230, 0);
+}
+
+.cart-amount {
+  font-size: 18px;
+  font-weight: 600;
+  color: ffc000;
+}

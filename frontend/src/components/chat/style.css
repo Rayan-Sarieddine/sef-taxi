@@ -1,0 +1,52 @@
+.chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.holder {
+  height: calc(100% - 114px);
+  overflow: auto;
+  background-color: #ccc;
+}
+
+.holder::-webkit-scrollbar {
+  width: 10px;
+}
+
+.holder::-webkit-scrollbar-thumb {
+  background-color: #ffc000;
+  border-radius: 6px;
+}
+
+.holder::-webkit-scrollbar-track {
+  background-color: #ccc;
+  /* Set the background color for the track here */
+}
+
+header {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header .logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.input-container {
+  display: flex;
+  flex: 1;
+}
+
+.logo-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+}

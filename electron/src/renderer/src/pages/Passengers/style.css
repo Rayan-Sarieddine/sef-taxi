@@ -1,0 +1,49 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 60px;
+  box-shadow: 2px 2px 7px rgb(88, 88, 88);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+table th,
+table td {
+  padding: 12px;
+
+  text-align: left;
+}
+table td {
+  font-weight: 600;
+}
+table th {
+  background-color: #f2f2f2;
+}
+
+.accept-btn {
+  padding: 5px 10px;
+}
+
+.status {
+  gap: 7px;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #ffc000;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 800;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.img-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.img-name img {
+  height: 35px;
+  width: 35px;
+}

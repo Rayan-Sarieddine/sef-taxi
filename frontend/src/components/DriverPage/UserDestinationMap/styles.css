@@ -1,0 +1,15 @@
+.user-destination_map {
+  margin-top: 3rem;
+  width: 100%;
+  display: block;
+}
+.user-destination_map p {
+  margin: 0 auto;
+  width: fit-content;
+  font-weight: 700;
+  color: rgba(255, 192, 0);
+  background-color: black;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}

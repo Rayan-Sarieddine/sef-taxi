@@ -1,0 +1,18 @@
+.side-bar {
+  background-color: var(--black);
+  color: white;
+}
+
+.row {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin: 25px auto;
+  border-radius: 50%;
+  overflow: hidden;
+}

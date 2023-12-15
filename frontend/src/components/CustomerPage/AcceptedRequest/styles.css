@@ -1,0 +1,16 @@
+.accepted-request {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.chat_btn {
+  margin-top: 2rem;
+}
+.accepted-request p {
+  font-size: 1rem;
+  font-weight: 700;
+}

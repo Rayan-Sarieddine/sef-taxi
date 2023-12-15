@@ -1,0 +1,7 @@
+.driver-maps {
+  display: flex;
+  gap: 2rem;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,12 @@
+.refresh_btn {
+  margin-top: 2rem;
+}
+.wait-msg {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: rgba(255, 192, 0);
+}

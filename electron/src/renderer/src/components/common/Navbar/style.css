@@ -1,0 +1,25 @@
+.navbar {
+  height: 7vh;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 5px 2px 2px rgb(135, 135, 135);
+  align-items: center;
+  z-index: 12;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar h1 {
+  margin-left: 40px;
+}
+.profile p {
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.profile img {
+  width: 45px;
+  height: 45px;
+}

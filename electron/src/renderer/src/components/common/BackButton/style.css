@@ -1,0 +1,14 @@
+.round {
+  font-size: 80px;
+  color: black;
+  position: absolute;
+  left: 5%;
+  top: 1px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.round:hover {
+  color: #ffc000;
+}

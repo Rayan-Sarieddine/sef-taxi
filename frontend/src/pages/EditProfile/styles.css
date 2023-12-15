@@ -1,0 +1,66 @@
+.edit-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    padding: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.profile-header {
+    display: flex;
+    align-items: flex-start;
+    height: 140px;
+}
+.edit-pfp-pic {
+    width: 140px;
+    aspect-ratio: 1;
+    border-radius: 5px;
+}
+.edit-pfp-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.edit-info {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.edit-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.edit-email {
+    font-size: 14px;
+}
+.upload-img-btn {
+    position: relative;
+    margin-top: auto;
+}
+.upload-img-btn label {
+    cursor: pointer;
+    position: relative;
+    padding-block: 6px;
+}
+.upload-img-btn input {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    inset: 0 0 0 0;
+}
+.edit-role {
+    margin-left: auto;
+    background-color: rgb(185, 185, 185);
+    padding: 0.25rem 0.7rem;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+}

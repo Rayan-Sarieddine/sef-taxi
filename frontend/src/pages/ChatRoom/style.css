@@ -1,0 +1,9 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  height: calc(100vh - 80px);
+}
+
+.chat-room main .side-bar {
+  width: 300px;
+}

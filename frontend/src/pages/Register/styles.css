@@ -1,0 +1,6 @@
+.register-main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 820px;
+}

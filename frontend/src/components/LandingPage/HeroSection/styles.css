@@ -1,0 +1,35 @@
+.hero-section {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+.hero-section > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-section-content {
+  position: absolute;
+  margin-left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.hero-section-content > h1 {
+  font-size: 52px;
+  color: white;
+  margin-bottom: 50px;
+}
+.skewed {
+  color: black;
+  padding: 5px 15px;
+  display: inline-block;
+  position: relative;
+}
+.bg-grey {
+  z-index: -1;
+  background-color: rgba(255, 192, 0);
+  position: absolute;
+  inset: 0 0 0 0;
+  transform: skewX(30deg);
+}
