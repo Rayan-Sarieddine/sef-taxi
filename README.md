@@ -39,12 +39,12 @@
 <!-- Prototyping -->
 <img src="./readme/title3.svg"/>
 
-| (./readme/demo/1.png)
-| (./readme/demo/2.png)
-| (./readme/demo/3.png)
-| (./readme/demo/4.png)
-| (./readme/demo/6.png)
-| (./readme/demo/7.png)
-| (./readme/demo/8.png)
-| (./readme/demo/9.png)
-| (./readme/demo/10.png)
+| ![demo](./readme/demo/1.png)
+| ![demo](./readme/demo/2.png)
+| ![demo](./readme/demo/3.png)
+| ![demo](./readme/demo/4.png)
+| ![demo](./readme/demo/6.png)
+| ![demo](./readme/demo/7.png)
+| ![demo](./readme/demo/8.png)
+| ![demo](./readme/demo/9.png)
+| ![demo](./readme/demo/10.png)
